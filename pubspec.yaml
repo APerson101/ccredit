@@ -1,0 +1,50 @@
+name: ccredit
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  get_it: ^7.6.0
+  hooks_riverpod: ^2.3.6
+  image_picker: ^0.8.7+5
+  intl: ^0.18.1
+  riverpod_annotation: ^2.1.1
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  http: ^0.13.6
+  google_fonts: ^4.0.4
+  # syncfusion_flutter_pdf: ^21.2.8
+  syncfusion_flutter_datagrid: ^21.2.8
+  webview_flutter: ^4.2.1
+  url_launcher: ^6.1.11
+  mock_data: ^2.0.0
+  syncfusion_flutter_charts: ^21.2.8
+  syncfusion_flutter_gauges: ^21.2.8
+  pretty_qr_code: ^2.0.3
+  lottie: ^2.3.2
+  webview_flutter_android: ^3.7.1
+  glassmorphism_ui: ^0.3.0
+  # syncfusion_flutter_pdfviewer: ^21.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.4
+  isar_generator: ^3.1.0+1
+  riverpod_generator: ^2.2.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/fonts/
+    - assets/images/back.png
+    - assets/images/
+  
